@@ -1,4 +1,4 @@
-@use "../util";
+@use "../util" as *;
 
 .m-nav {
   position: absolute;
@@ -48,7 +48,7 @@
     display: block;
     width: fit-content;
     margin: 0 auto;
-    font-family: util.$barlow;
+    font-family: $barlow;
     font-size: 1.25rem;
     text-align: center;
     color: var(--dark-grayish-blue);
@@ -57,7 +57,7 @@
       padding: 1.25rem 1.875rem;
       background-color: var(--yellow);
       color: var(--very-dark-desaturated-blue);
-      font-family: util.$fraunces;
+      font-family: $fraunces;
       font-size: 0.9475rem;
       border-radius: 3.75rem;
     }
