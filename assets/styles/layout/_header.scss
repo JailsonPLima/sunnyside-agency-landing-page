@@ -1,0 +1,30 @@
+@use "../util";
+
+.l-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem 1.5rem 0;
+
+  &__logo {
+    display: block;
+    width: 8rem;
+
+    & > img {
+      max-width: 100%;
+    }
+  }
+
+  // .m-nav {
+  //   display: none;
+  // }
+
+  .m-menu {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+}
